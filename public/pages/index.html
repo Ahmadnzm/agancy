@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>املاک آینده </title>
+</head>
+
+<body>
+    <div id="header">
+        <!-- start navbar -->
+        <nav class="navbar mb-2 sticky-lg-top navbar-expand-lg navbar-light bg-dark">
+            <div class="container">
+                <button class="navbar-toggler mb-3 bg-warning" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="mx-lg-2 col-6 collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi-house"></i>خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class=""></i>خدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi-phone-vibrate"></i>ارتباط با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi-person-check"></i> درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> <i class="bi-newspaper"></i> خبرنامه</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-5 mx-lg-2 social_media d-none d-lg-flex align-item-center">
+                    <i class="bi-twitter"></i>
+                    <i class="bi-telegram"></i>
+                    <i class="bi-instagram"></i>
+                    <i class="bi-whatsapp"></i>
+                    <i class="bi-linkedin"></i>
+                    <i class="bi-google"></i>
+                </div>
+                <div class="brand col-1 mx-lg-2">
+                    <a class="navbar-brand" href="#"><img src="../images/Building.jpg" alt="brand"></a>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+    </div>
+    <div id="main">
+        <div class="container">
+            <div class="row">
+                <!-- right sidebar -->
+                <div class="right_sideBar col-lg-3 col-md-4 col-sm-12">
+                    <!-- services -->
+                    <div class="row mt-2">
+                        <div class="accordion" id="house">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingHouse">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseHouse">
+                                        مسکن
+                                    </button>
+                                </h2>
+                                <div id="collapseHouse" class="accordion-collapse collapse">
+                                    <div class="accordion-body bg-warning">
+                                        <div class="d-grid gap-2">
+                                            <a href="#" class="btn btn-danger btnm-2"> پیش فروش</a>
+                                            <a href="#" class="btn btn-danger btnm-2"> فروش</a>
+                                            <a href="#" class="btn btn-danger btnm-2"> رهن کامل</a>
+                                            <a href="#" class="btn btn-danger btnm-2"> رهن و اجاره</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="land">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingLand">
+                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseLand">
+                                        زمین
+                                    </button>
+                                </h2>
+                                <div id="collapseLand" class="accordion-collapse collapse">
+                                    <div class="accordion-body bg-warning">
+                                        <div class="d-grid gap-2">
+                                            <a href="#" class="btn btn-danger btnm-2"> فروش</a>
+                                            <a href="#" class="btn btn-danger btnm-2">شراکت در ساخت و ساز</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry announcement -->
+                    <div class="col mb-2">
+                        <a class="btn btn-danger d-block" href="record.html">ثبت آگهی ها</a>
+                    </div>
+                    <!-- login form -->
+                    <div class="col my-2 bg-dark text-warning rounded d-none d-lg-block">
+                        <div class="bg-primary py-1 mb-1 text-center text-white fs-5 fw-bolder">
+                            <p>فرم کاربری<i class="bi-person-badge"></i></p>
+                        </div>
+
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="firstName">نام</label>
+                                <input type="text" class="form-control" id="email" placeholder="احمد">
+                                <small class="text-danger visually-hidden"> لطفا فیلد مربوطه را پر نمایید</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">نام خانوادگی</label>
+                                <input type="text" class="form-control" id="email" placeholder="نوروزی">
+                                <small class="text-danger visually-hidden"> لطفا فیلد مربوطه را پر نمایید</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">ایمیل شما</label>
+                                <input type="email" class="form-control" id="email" placeholder="ahmad@gmail.com">
+                                <small class="text-danger visually-hidden"> لطفا فیلد مربوطه را پر نمایید</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">شماره همراه</label>
+                                <input type="number" class="form-control" id="email" placeholder="09112345678">
+                                <small class="text-danger visually-hidden"> لطفا فیلد مربوطه را پر نمایید</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">رمز عبور</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                                <small class="text-danger visually-hidden"> لطفا فیلد مربوطه را پر نمایید</small>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="checkBox">
+                                <label class="form-check-label" for="checkBox">مرا به خاطر بسپار</label>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <input type="submit" class="btn btn-success col-6 mx-1" value="ثبت نام">
+                                <input type="submit" class="btn btn-success col-6 mx-1" value="ورود">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- cardPrice -->
+                    <div class="col">
+                        <div class="bg-info pt-2 rounded d-flex justify-content-center align-items-center">
+                            <p class="text-white fw-bolder fs-4">
+                                <i class="bi-coin m-1 text-warning"></i>نرخ طلا و ارز<i class="bi-currency-dollar m-1 text-success"></i>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <table class="table">
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                        <tr class="border">
+                                            <td class="border">طلا 18عیار</td>
+                                            <td>12345</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end right sidebar -->
+                <!-- main content -->
+                <div class="col-lg-9 col-md-8 col-sm-12">
+                    <div class="mt-2 col text-center">
+                        <h1 class="text-warning fw-bold">املاک آینده</h1>
+                        <h4 class="text-danger my-2">با ما به سوی آینده</h4>
+                    </div>
+                    <div class="mb-lg-4">
+                        <p class="text-white">
+                            املاک آینده با سابقه..ساله درخشان در زمینه فروش ،رهن،رهن و اجاره در خدمت شما همشهریان عزیز
+                            می
+                            باشد.
+                        </p>
+                    </div>
+                    <!-- card -->
+                    <div class="col d-flex justify-content-between flex-wrap m-lg-3">
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/Building.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 card mx-auto card_info_prouduct" style="width: 13rem;">
+                            <img src="../images/bg-build.jpg" class="mt-1 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">درخواست:فروشی</h5>
+                                <p class="card-text">موقعیت:تهران</p>
+                                <p class="card-text">قیمت:12</p>
+                                <div class="d-grid">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_content">
+                                        اطلاعات بیشتر...
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal_content" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">اطلاعات کامل ملک مورد نظر</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="../images/Building.jpg" class="img-fluid" alt="info">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, quos!</p>
+                                    </div>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">بستن</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main content -->
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="bg-primary">
+        <div class="container">
+            <div class="row pt-2 d-flex justify-content-between">
+                <div class="col-lg-3 col-sm-12 mb-2 mx-lg-2 social_media d-flex justify-content-md-center mx-sm-auto align-item-center">
+                    <i class="bi-twitter"></i>
+                    <i class="bi-telegram"></i>
+                    <i class="bi-instagram"></i>
+                    <i class="bi-whatsapp"></i>
+                    <i class="bi-linkedin"></i>
+                    <i class="bi-google"></i>
+                </div>
+                <div class="d-flex col-lg-3 col-md-6 col-sm-12 mb-2 mb-sm-4 mx-sm-auto">
+                    <p class="text-white fs-6 fw-bolder"> شماره تلفن: <i class="bi-telephone-minus text-warning mx-1"></i>0212345678</p>
+                </div>
+                <div class="d-flex col-lg-4 col-md-6 col-sm-12 mb-2 mb-sm-4 mx-sm-auto">
+                    <p class="text-white fs-6 fw-bolder"> شماره موبایل: <i class="bi-phone text-warning mx-1"></i>09100000000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/all.js"></script>
+</body>
+
+</html>

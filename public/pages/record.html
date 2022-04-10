@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>ثبت آگهی</title>
+  </head>
+
+<body class="record_page d-flex justify-content-center text-warning">
+    <div class="row mt-5 bg-dark rounded text-center record_page_shadow">
+        <div class="bg-primary pt-1 text-warning mb-2">
+            <h1>
+                ثبت آگهی
+            </h1>
+        </div>
+        <div>
+            <form method="post">
+                <label>نوع ملک خود را انتخاب نمایید </label>
+                <div class="form-group mb-3">
+                    <input type="radio" name="domain" value="land"> زمین
+                    <input type="radio" name="domain" value="house"> ملک مسکونی
+                </div>
+                <label>سازمان ملک خود را انتخاب نمایید </label>
+                <div class="form-group mb-3">
+                    <!-- <input name="organDomain"> -->
+                </div>
+                <label> نوع درخواست </label>
+                <div class="form-group mb-3">
+                    <input type="radio" name="requstType">فروش
+                    <input type="radio" name="requstType">رهن و اجاره
+                    <input type="radio" name="requstType">رهن کامل
+                </div>
+
+                <label><i class="bi-currency-dollar"></i> قیمت ملک خود را وارد نمایید</label>
+                <div class="form-group mb-3">
+
+                    <input type="checkbox" name="price">توافقی<br>
+                    <input type="number" name="price" placeholder="121121">تومان
+                </div>
+                <label><i class="bi-geo-alt"></i> موقعیت ملک خود را وارد نمایید</label>
+                <div class="form-group mb-3">
+                    <input type="text" placeholder="تهران-خیابان ...">
+                </div>
+                <label><i class="bi-blockquote-left"></i> توضیحات در مورد ملک خود را بیان کنید</label>
+                <div class="form-group mb-3">
+                    <textarea type="text" placeholder="تهران-خیابان ..."></textarea>
+                </div>
+
+                <label> <i class="bi-images"></i> انتخاب عکس</label>
+                <div class="form-group mb-3">
+                    <input type="text">
+                </div>
+
+                <input type="submit" class="btn btn-success col-6 mx-1" name="record" value="ثبت آگهی">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
